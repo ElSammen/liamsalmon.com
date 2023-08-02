@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 colorpickerdeleteme {
-  color: rgb(0, 0, 0)
+  color: rgb(92, 168, 255), 100%, 68%;
 }
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 147 197 253;
-  --background-end-rgb: 147 197 253;
+  --background-start-rgb: 92, 168, 255;
+  --background-end-rgb: 92, 168, 255;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,7 +20,20 @@ colorpickerdeleteme {
   }
 }
 
+.hero {
+  filter: drop-shadow(-2px 12px 0px #000);
+  width: 8rem;
+  height: auto;
+}
 
+.subheader {
+  color: white;
+  text-shadow:
+    1px 1px 0 black,
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px black;
+}
 
 
 /* @media (prefers-color-scheme: light) {
