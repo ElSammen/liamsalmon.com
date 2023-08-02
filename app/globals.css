@@ -22,8 +22,16 @@ colorpickerdeleteme {
 
 .hero {
   filter: drop-shadow(-2px 12px 0px #000);
-  width: 8rem;
-  height: auto;
+}
+
+.coffee {
+  filter: drop-shadow(-1px 5px 0px #000);
+}
+
+.botbox {
+  -webkit-box-shadow: -9px 9px 0px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -9px 9px 0px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: -9px 9px 0px -1px rgba(0, 0, 0, 0.75);
 }
 
 .subheader {
