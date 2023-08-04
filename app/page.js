@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import hero from './assets/heropic.png'
 import coffee from './assets/coffee.png'
 import { headerFont, subheaderFont } from './utils/fonts.js'
@@ -33,21 +34,28 @@ export default function Home() {
       </section>
       <section className="mainbottom flex flex-row w-full justify-items-auto">
         <div className="flex flex-row flex-wrap  text-box justify-between m-auto">
-          <div className="bottombox box1 h-[7rem] m-auto mx-9 bg-green-500 w-[20rem] border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] mb-[2rem] p-[0.2rem] text-[1.2rem]
+          <Link href="/pages/projects">
+            <div className="bottombox box1 h-[7rem] m-auto mx-9 bg-green-500 w-[20rem] border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] mb-[2rem] p-[0.2rem] text-[1.2rem]
           hover:bg-green-600 hover:border-green-700 hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] hover:cursor-pointer hover:text-white"
-          >
-            <span className={subheaderFont.className}>Projects</span>
-          </div>
-          <div className="bottombox box2 h-[7rem] m-auto  mx-9 bg-orange-400 w-[20rem] border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] mb-[2rem] p-[0.2rem] text-[1.2rem]
+            >
+              <span className={subheaderFont.className}>Projects</span>
+            </div>
+          </Link>
+
+          <Link href="/pages/about">
+            <div className="bottombox box2 h-[7rem] m-auto  mx-9 bg-orange-400 w-[20rem] border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] mb-[2rem] p-[0.2rem] text-[1.2rem]
           hover:bg-orange-500 hover:border-orange-700 hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] hover:cursor-pointer hover:text-white"
-          >
-            <span className={subheaderFont.className}>About</span>
-          </div>
+            >
+              <span className={subheaderFont.className}>About</span>
+            </div>
+          </Link>
+          <Link href="/pages/contact">
           <div className="bottombox box3 h-[7rem] m-auto  mx-9 bg-violet-600 w-[20rem] border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] mb-[2rem] p-[0.2rem] text-[1.2rem]
           hover:bg-violet-700 hover:border-violet-900 hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] hover:cursor-pointer hover:text-white"
           >
             <span className={subheaderFont.className}>Contact</span>
           </div>
+          </Link>
         </div>
       </section>
 
