@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import hero from './assets/heropic.png'
 import coffee from './assets/coffee.png'
+import cursor from './assets/pointer.png'
 import { headerFont, subheaderFont } from './utils/fonts.js'
 
 export default function Home() {
@@ -19,16 +20,21 @@ export default function Home() {
             <p className={subheaderFont.className}>Full Stack Div</p>
           </div>
         </div>
-        <div className="flex flex-col imgbox relative mr-[2rem]">
+        <div className="flex flex-col imgbox relative md:mr-[2rem]">
           <Image src={hero}
             alt="Picture of the author over orange ink splatter"
-            className="hero rotate-[-5deg] aspectratio-auto"
+            className="hero md:rotate-[-5deg] aspectratio-auto"
             style={{ width: "28rem", minWidth: "20rem" }}
           />
           <Image src={coffee}
             alt="Picture of coffee cup"
             className="coffee absolute -right-2 top-4 rotate-[15deg] animate-bounce "
             style={{ width: "8rem" }}
+          />
+          <Image src={cursor}
+            alt="Picture of cursor"
+            className="cursor absolute bottom-[3.5rem] -left-0 animate-[mousemove_30s_infinite]"
+            style={{ width: "1.5rem" }}
           />
         </div>
       </section>
