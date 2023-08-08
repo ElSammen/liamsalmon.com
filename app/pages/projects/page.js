@@ -9,7 +9,6 @@ export default function Projects() {
                         <span>return home</span>
                     </div>
                 </Link>
-                hehe you shouldtn be here xd
                 projecto
                 <div className="projectbox flex sm:flex-row flex-wrap justify-between w-full sm:mx-auto sm:my-[3rem] text-center md: text-left">
                     <div className="flex flex-col bg-fuchsia-500 border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] w-[20rem] h-[4rem] text-center">
