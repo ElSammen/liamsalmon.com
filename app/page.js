@@ -7,7 +7,7 @@ import { headerFont, subheaderFont } from './utils/fonts.js'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col flex-wrap items-center justify-between">
+    <main className="bg-sky-500 flex min-h-screen min-w-screen flex-col flex-wrap items-center justify-between">
       <section className="maintop flex md:flex-row flex-wrap justify-between w-full  px-28 sm:mx-auto sm:my-[3rem] text-center md:text-left">
         <div className="flex flex-col name-box text-center">
           <div className="flex header name1 text-9xl cursor-default">

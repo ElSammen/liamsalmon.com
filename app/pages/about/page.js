@@ -5,7 +5,7 @@ import { headerFont, subheaderFont } from '../../utils/fonts.js'
 
 export default function About() {
     return (
-        <main className="flex min-h-screen flex-col flex-wrap items-center justify-between mx-[3rem]">
+        <main className="bg-sky-500 flex min-h-screen min-w-screen flex-col flex-wrap items-center justify-between mx-[3rem]">
             <section className="maintop flex md:flex-row flex-wrap justify-between w-full px-28 md:mx-auto sm:my-[3rem] text-center md:text-left">
                 <Link href="/">
                     <div className="absolute top-0 left-1">
@@ -16,7 +16,7 @@ export default function About() {
                     <div className={subheaderFont.className}>
                         <p>About</p>
                         <p></p>
-                        <p>I'm a real human bean</p>
+                        <p>Im a real human bean</p>
                         <p></p>
                         <p></p>
                         <p className="mt-3">fr</p></div>
