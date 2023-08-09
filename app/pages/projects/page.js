@@ -8,7 +8,7 @@ import reactIcon from '../../assets/React-icon.svg'
 import jsIcon from '../../assets/JS-logo.png'
 import cssLogo from '../../assets/CSSlogo.svg'
 import mongoDB from '../../assets/mongoDB.png'
-import nodeJS from '../../assets/nodeJS.png'
+import nodeJS from '../../assets/nodejs.png'
 
 
 
