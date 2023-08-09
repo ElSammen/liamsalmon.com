@@ -9,8 +9,8 @@ export default function Contact() {
                         <span>return home</span>
                     </div>
                 </Link>
-                hehe you shouldtn be here xd
                 contacto
+                <div></div>
             </section>
         </main>
 

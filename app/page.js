@@ -8,8 +8,8 @@ import { headerFont, subheaderFont } from './utils/fonts.js'
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col flex-wrap items-center justify-between">
-      <section className="maintop flex sm:flex-row flex-wrap justify-between w-full  px-28 sm:mx-auto sm:my-[3rem] text-center md:text-left">
-        <div className="flex flex-col name-box">
+      <section className="maintop flex md:flex-row flex-wrap justify-between w-full  px-28 sm:mx-auto sm:my-[3rem] text-center md:text-left">
+        <div className="flex flex-col name-box text-center">
           <div className="flex header name1 text-9xl cursor-default">
             <p className={headerFont.className}>LIAM</p>
           </div>
@@ -38,28 +38,29 @@ export default function Home() {
           />
         </div>
       </section>
-      <section className="mainbottom flex flex-row w-full justify-items-auto">
-        <div className="flex flex-row flex-wrap  text-box justify-between m-auto">
+      <section className="mainbottom flex flex-row w-full justify-items-center">
+        <div className="flex flex-row flex-wrap  text-box justify-between mx-[8rem] md:m-auto">
           <Link href="/pages/projects">
-            <div className="bottombox box1 h-[7rem] m-auto mx-9 bg-green-500 w-[20rem] border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] mb-[2rem] p-[0.2rem] text-[1.2rem]
-          hover:bg-green-600 hover:border-green-700 hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] hover:cursor-pointer hover:text-white"
+            <div className="bottombox box1 h-[9rem] md:h-[7rem] m-auto mx-3 bg-green-500 w-[25rem] md:w-[20rem] border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] mb-[2rem] p-[0.2rem] text-[1.7rem] md:text-[1.4rem]
+          hover:bg-green-600 hover:border-green-700 hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] hover:cursor-pointer hover:text-white relative"
             >
-              <span className={subheaderFont.className}>Projects</span>
+              <p className={subheaderFont.className}>Projects</p>
+              
             </div>
           </Link>
 
           <Link href="/pages/about">
-            <div className="bottombox box2 h-[7rem] m-auto  mx-9 bg-orange-400 w-[20rem] border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] mb-[2rem] p-[0.2rem] text-[1.2rem]
+            <div className="bottombox box2 h-[9rem] md:h-[7rem] m-auto  mx-3 bg-orange-400 w-[25rem] md:w-[20rem] border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] mb-[2rem] p-[0.2rem] text-[1.7rem] md:text-[1.4rem]
           hover:bg-orange-500 hover:border-orange-700 hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] hover:cursor-pointer hover:text-white"
             >
-              <span className={subheaderFont.className}>About</span>
+              <p className={subheaderFont.className}>About</p>
             </div>
           </Link>
           <Link href="/pages/contact">
-          <div className="bottombox box3 h-[7rem] m-auto  mx-9 bg-violet-600 w-[20rem] border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] mb-[2rem] p-[0.2rem] text-[1.2rem]
+          <div className="bottombox box3 h-[9rem] md:h-[7rem] m-auto  mx-3 bg-violet-600 w-[25rem] md:w-[20rem] border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] mb-[2rem] p-[0.2rem] text-[1.7rem] md:text-[1.4rem]
           hover:bg-violet-700 hover:border-violet-900 hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] hover:cursor-pointer hover:text-white"
           >
-            <span className={subheaderFont.className}>Contact</span>
+            <p className={subheaderFont.className}>Contact</p>
           </div>
           </Link>
         </div>
