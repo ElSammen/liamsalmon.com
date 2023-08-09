@@ -44,7 +44,7 @@ export default function Projects() {
                             </div>
                             {isExpanded ? <span ><Link className="hover:text-white" href="https://herd-frontend.onrender.com/">Demo</Link> <Link className="hover:text-white" href="https://github.com/ElSammen/Herd">Repo</Link></span> : null}
                             {isExpanded ? <p className="w-[90%] mx-auto">A Full Stack Music Recommendation Web App, powered by the Spotify API - enter a song and receive related suggestions.</p> : null}
-                            {isExpanded ? <p className="w-[90%] mx-auto"> Incorporates an autocomplete feature to attach Spotify's official Genre Seeds to your account for automatic suggestions</p> : null}
+                            {isExpanded ? <p className="w-[90%] mx-auto"> Incorporates an autocomplete feature to attach Spotify&apos;s official Genre Seeds to your account for automatic suggestions</p> : null}
                         </div>
                     </div>
                     <div className="flex flex-col projcard bg-violet-500 border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] w-[20rem] h-[5rem] text-center mb-3">
