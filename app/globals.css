@@ -3,22 +3,22 @@
 @tailwind utilities;
 
 colorpickerdeleteme {
-  color: rgb(92, 168, 255), 100%, 68%;
+  color: #5ca8ff, 100%, 68%;
 }
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 92, 168, 255;
   --background-end-rgb: 92, 168, 255;
-}
-
+} */
+/* 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+} */
 
 .hero {
   filter: drop-shadow(-2px 12px 0px #000);
