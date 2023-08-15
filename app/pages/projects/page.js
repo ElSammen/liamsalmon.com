@@ -36,9 +36,9 @@ export default function Projects() {
                             <p className="border-b-2 border-black w-[50%] mx-auto text-[1.2]">Herd</p>
                             <p className="mx-auto">Spotify Connected Web App</p>
                             <div className="flex justify-center space-x-0.5 techbox mx-auto">
-                                <Image src={reactIcon} className="opacity-[1]" style={{ width: "2.2rem" }} />
-                                <Image src={jsIcon} className="opacity-[1]" style={{ width: "2.2rem" }} />
-                                <Image src={cssLogo} className="opacity-[1]" style={{ width: "2.2rem" }} />
+                                <Image src={reactIcon} className="opacity-[1]" alt="React Icon" style={{ width: "2.2rem" }} />
+                                <Image src={jsIcon} className="opacity-[1]" alt="JavaScript language icon" style={{ width: "2.2rem" }} />
+                                <Image src={cssLogo} className="opacity-[1]" alt="CSS icon" style={{ width: "2.2rem" }} />
                                 {/* <Image src={mongoDB} className="opacity-[1]" style={{width: "2.2rem"}}  />
                                 <Image src={nodeJS} className="opacity-[1]" style={{width: "2.2rem"}}  /> */}
                             </div>
@@ -50,9 +50,9 @@ export default function Projects() {
                     <div className="flex flex-col projcard bg-violet-500 border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] w-[20rem] h-[5rem] text-center mb-3">
                         <p className="border-b-2 border-black w-[50%] mx-auto">Weather App</p>
                         <div className="flex justify-center space-x-0.5 techbox mx-auto">
-                            <Image src={reactIcon} className="opacity-[1]" style={{ width: "2.2rem" }} />
-                            <Image src={jsIcon} className="opacity-[1]" style={{ width: "2.2rem" }} />
-                            <Image src={cssLogo} className="opacity-[1]" style={{ width: "2.2rem" }} />
+                            <Image src={reactIcon} className="opacity-[1]" alt="React Icon" style={{ width: "2.2rem" }} />
+                            <Image src={jsIcon} className="opacity-[1]" alt="JavaScript language icon" style={{ width: "2.2rem" }} />
+                            <Image src={cssLogo} className="opacity-[1]" alt="CSS icon" style={{ width: "2.2rem" }} />
                             {/* <Image src={mongoDB} className="opacity-[1]" style={{width: "2.2rem"}}  />
                                 <Image src={nodeJS} className="opacity-[1]" style={{width: "2.2rem"}}  /> */}
                         </div>
@@ -61,8 +61,8 @@ export default function Projects() {
                     <div className="flex flex-col bg-fuchsia-500 border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] w-[20rem] h-[5rem] text-center mb-3">
                         <p className="border-b-2 border-black w-[50%] mx-auto">Chromodoro</p>
                         <div className="flex justify-center space-x-0.5 techbox mx-auto  mt-1">
-                            <Image src={jsIcon} className="opacity-[1]" style={{ width: "2.2rem" }} />
-                            <Image src={cssLogo} className="opacity-[1]" style={{ width: "2.2rem" }} />
+                            <Image src={jsIcon} className="opacity-[1]" alt="JavaScript language icon" style={{ width: "2.2rem" }} />
+                            <Image src={cssLogo} className="opacity-[1]" alt="CSS icon" style={{ width: "2.2rem" }} />
                             {/* <Image src={mongoDB} className="opacity-[1]" style={{width: "2.2rem"}}  />
                                 <Image src={nodeJS} className="opacity-[1]" style={{width: "2.2rem"}}  /> */}
                         </div>
@@ -71,9 +71,9 @@ export default function Projects() {
                     <div className="flex flex-col bg-violet-500 border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] w-[20rem] h-[5rem] text-center mb-3">
                         <p className="border-b-2 border-black w-[50%] mx-auto">R8</p>
                         <div className="flex justify-center space-x-0.5 techbox mx-auto mt-1">
-                                <Image src={reactIcon} className="opacity-[1]" style={{ width: "2.2rem" }} />
-                                <Image src={jsIcon} className="opacity-[1]" style={{ width: "2.2rem" }} />
-                                <Image src={cssLogo} className="opacity-[1]" style={{ width: "2.2rem" }} />
+                                <Image src={reactIcon} className="opacity-[1]" alt="React Icon" style={{ width: "2.2rem" }} />
+                                <Image src={jsIcon} className="opacity-[1]" alt="JavaScript language icon" style={{ width: "2.2rem" }} />
+                                <Image src={cssLogo} className="opacity-[1]" alt="CSS icon" style={{ width: "2.2rem" }} />
                                 {/* <Image src={mongoDB} className="opacity-[1]" style={{width: "2.2rem"}}  />
                                 <Image src={nodeJS} className="opacity-[1]" style={{width: "2.2rem"}}  /> */}
                             </div>
@@ -82,9 +82,9 @@ export default function Projects() {
                     <div className="flex flex-col bg-violet-500 border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] w-[20rem] h-[5rem] text-center mb-3">
                         <p className="border-b-2 border-black w-[50%] mx-auto">Pot Odds Calculator</p>
                         <div className="flex justify-center space-x-0.5 techbox mx-auto  mt-1">
-                                <Image src={reactIcon} className="opacity-[1]" style={{ width: "2.2rem" }} />
-                                <Image src={jsIcon} className="opacity-[1]" style={{ width: "2.2rem" }} />
-                                <Image src={cssLogo} className="opacity-[1]" style={{ width: "2.2rem" }} />
+                                <Image src={reactIcon} className="opacity-[1]" alt="React Icon" style={{ width: "2.2rem" }} />
+                                <Image src={jsIcon} className="opacity-[1]" alt="JavaScript language icon" style={{ width: "2.2rem" }} />
+                                <Image src={cssLogo} className="opacity-[1]" alt="CSS icon" style={{ width: "2.2rem" }} />
                                 {/* <Image src={mongoDB} className="opacity-[1]" style={{width: "2.2rem"}}  />
                                 <Image src={nodeJS} className="opacity-[1]" style={{width: "2.2rem"}}  /> */}
                             </div>
