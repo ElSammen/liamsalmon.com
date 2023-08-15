@@ -20,7 +20,7 @@ module.exports = {
         require('@tailwindcss/typography'),
       ],
       keyframes: {
-        'mousemove': {
+        'fullmousemove': {
           '0%': { transform: 'translate(2rem, -2rem)' },
           '10%': { transform: 'translate(-3rem, 4rem)' },
           '20%': { transform: 'translate(1rem, -2rem)' },
@@ -33,6 +33,19 @@ module.exports = {
           '90%': { transform: 'translate(3rem, 4rem)' },
           '100%': { transform: 'translate(-2rem, 2rem)' }
         },
+        'mousemove': {
+          '0%': { transform: 'translate(0rem, -2rem)' },
+          '10%': { transform: 'translate(-2rem, 0rem)' },
+          '20%': { transform: 'translate(0rem, -2rem)' },
+          '30%': { transform: 'translate(-2rem, 2rem)' },
+          '40%': { transform: 'translate(0rem, 2rem)' },
+          '50%': { transform: 'translate(-2rem, 0rem)' },
+          '60%': { transform: 'translate(-2rem, 0rem)' },
+          '70%': { transform: 'translate(2rem, 0rem)' },
+          '80%': { transform: 'translate(2rem, 0rem)' },
+          '90%': { transform: 'translate(0rem, -2rem)' },
+          '100%': { transform: 'translate(2rem, 0rem)' }
+        }
       }
     }
   }
