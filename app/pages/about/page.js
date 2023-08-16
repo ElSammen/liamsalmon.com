@@ -15,8 +15,8 @@ export default function About() {
                 <div className="flex flex-col about-box bg-fuchsia-500 border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] w-[20rem] text-center">
                     <div className={subheaderFont.className}>
                         <p className="">About</p>
-                        <p>Sup dawgs, I&apos;m Liam Salmon and I'm the real deal</p>
-                        <p>Im a real human bean</p>
+                        <p>Sup dawgs, I&apos;m Liam Salmon and I&apos;m the real deal</p>
+                        <p>I&apos;m a real human bean</p>
                         <p></p>
                         <p></p>
                         <p className="mt-3">fr</p></div>
