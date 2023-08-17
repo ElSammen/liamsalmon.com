@@ -20,7 +20,7 @@ export default function About() {
                         <p className="border-b-2 border-black w-40 mx-auto"></p>
                         <p className="mt-2">Most of all, I like learning new things. This portfolio for example, made in pure Nextjs and Tailwind - both of which completely new to me beforehand!</p>
                         <p className="border-b-2 border-black w-40 mx-auto"></p>
-                        <p className="mt-2">As a recent graduate of <em><a className="hover:text-slate-200" href="https://thedeveloperacademy.com/" target="_blank">The Developer Academy</a></em>&apos;s nest, I'm hoping to spread my wings into a bright new industry.</p>
+                        <p className="mt-2">As a recent graduate of <em><a className="hover:text-slate-200" href="https://thedeveloperacademy.com/" target="_blank">The Developer Academy</a></em>&apos;s nest, I&apos;m hoping to spread my wings into a bright new industry.</p>
                         <p></p>
                         <p className="mt-3">fr</p></div>
                 </div>
