@@ -44,7 +44,7 @@ module.exports = {
           '70%': { transform: 'translate(2rem, 0rem)' },
           '80%': { transform: 'translate(2rem, 0rem)' },
           '90%': { transform: 'translate(0rem, -2rem)' },
-          '100%': { transform: 'translate(2rem, 0rem)' }
+          '100%': { transform: 'translate(-2rem, 0rem)' }
         },
         'balloon1': {
           '0%': { transform: 'translate(0rem, 0.5rem)' },
@@ -60,7 +60,20 @@ module.exports = {
           '75%': { transform: 'translate(0rem, 0.5rem)' },
           '100%': { transform: 'translate(0rem, -0.5rem)' }
         },
-
+        "diagonalMove45": {
+          '0%': { transform: 'translate(-0.5rem, -0.5rem)' },
+          '25%': { transform: 'translate(-0.5rem, -0.5rem)' },
+          '50%': { transform: 'translate(0.5rem, 0.5rem)' },
+          '75%': { transform: 'translate(0.5rem, 0.5rem)' },
+          '100%': { transform: 'translate(-0.5rem, -0.5rem)' }
+        },
+        "diagonalMove-45": {
+          '0%': { transform: 'translate(-0.5rem, 0.5rem)' },
+          '25%': { transform: 'translate(-0.5rem, 0.5rem)' },
+          '50%': { transform: 'translate(0.5rem, -0.5rem)' },
+          '75%': { transform: 'translate(0.5rem, -0.5rem)' },
+          '100%': { transform: 'translate(-0.5rem, 0.5rem)' }
+        },
 
 
       }
