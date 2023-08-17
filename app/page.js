@@ -17,33 +17,37 @@ export default function Home() {
         <div className="flex flex-col name-box text-center mx-1 ml-2">
           <Image src={nameimg}
             alt="Picture of name of author over fuchsia ink splatter"
-            className="nameimg sm:mt-4 mx-3 sm-mx-auto sm:ml-10 w-[15rem] sm:w-[20rem]"
+            className="nameimg mt-3 sm:mt-4 mx-auto sm-mx-auto sm:ml-10 w-[22rem] sm:w-[20rem]"
 
           />
+          {/* <div className='bg-amber-400 border-black border-4 mt-1 mx-auto p-3 w-[20rem]'>
+            <p className={subheaderFont.className}>While primarily skilled with the below technologies, I'm open to learning any new technology that comes my way.</p>
+          </div> */}
           <div className="flex flex-row justify-center sm:mt-10">
-          <Image src={jsloon}
-            alt="Picture of javascript logo imposed onto a balloon"
-            className="jsloon animate-[balloon1_10s_infinite] w-[3.5rem] sm:w-[5rem] mx-1 sm:mx-2"
-            
-          />
-          <Image src={reactloon}
-            alt="Picture of React logo imposed onto a balloon"
-            className="reactloon animate-[balloon2_10s_infinite] w-[3.5rem] sm:w-[5rem] mx-1 sm:mx-2"
-            
-          />
-          <Image src={mongoloon}
-            alt="Picture of mongoDB logo imposed onto a balloon"
-            className="mongoloon animate-[balloon1_10s_infinite] w-[3.5rem] sm:w-[5rem] mx-1 sm:mx-2"
-            
-          />
-          <Image src={nodeloon}
-            alt="Picture of nodejs logo imposed onto a balloon"
-            className="nodeloon animate-[balloon2_10s_infinite] w-[3.5rem] sm:w-[5rem] mx-1 sm:mx-2"
-            
-          />
+
+            <Image src={jsloon}
+              alt="Picture of javascript logo imposed onto a balloon"
+              className="jsloon animate-[balloon1_10s_infinite] w-[5rem] sm:w-[5rem] mx-1 sm:mx-2"
+
+            />
+            <Image src={reactloon}
+              alt="Picture of React logo imposed onto a balloon"
+              className="reactloon animate-[balloon2_10s_infinite] w-[5rem] sm:w-[5rem] mx-1 sm:mx-2"
+
+            />
+            <Image src={mongoloon}
+              alt="Picture of mongoDB logo imposed onto a balloon"
+              className="mongoloon animate-[balloon1_10s_infinite] w-[5rem] sm:w-[5rem] mx-1 sm:mx-2"
+
+            />
+            <Image src={nodeloon}
+              alt="Picture of nodejs logo imposed onto a balloon"
+              className="nodeloon animate-[balloon2_10s_infinite] w-[5rem] sm:w-[5rem] mx-1 sm:mx-2"
+
+            />
           </div>
         </div>
-        <div className="flex flex-col imgbox relative sm:mx-4 md:mr-[2rem]">
+        <div className="flex flex-col imgbox relative sm:mt-4 sm:mx-4 md:mr-[2rem]">
           <Image src={hero}
             alt="Picture of the author over orange ink splatter"
             className="hero md:rotate-[-5deg] aspectratio-auto w-[20rem] sm:w-[28rem]"
@@ -55,15 +59,15 @@ export default function Home() {
           />
           <Image src={cursor}
             alt="Picture of cursor"
-            className="cursor absolute bottom-[3.5rem] -left-0 animate-[mousemove_30s_infinite] sm:animate-[fullmousemove_30s_infinite]"
+            className="cursor absolute bottom-[3.5rem] left-6 motion-safe:animate-[mousemove_30s_infinite] motion-safe:sm:animate-[fullmousemove_30s_infinite]"
             style={{ width: "1.5rem" }}
           />
         </div>
       </section>
       <section className="mainbottom flex flex-row w-full justify-items-center">
-        <div className="flex flex-row flex-wrap  text-box justify-between sm:mx-[8rem] mt-5 sm:my-0 md:m-auto">
+        <div className="flex flex-row flex-wrap  text-box justify-between mt-6 sm:mx-[8rem]  sm:mb-8 md:mx-auto">
           <Link href="/pages/projects">
-            <div className="bottombox box1 h-[7rem] md:h-[7rem] sm:m-auto sm:mx-3 bg-green-500 w-[18rem] md:w-[20rem] border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] mb-[2rem] p-[0.2rem] text-[1.2rem] sm:text-[1.7rem] md:text-[1.4rem]
+            <div className="bottombox box1 h-[7rem] md:h-[7rem] sm:m-auto mx-5 sm:mx-3 bg-green-500 w-[18rem] md:w-[20rem] border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] mb-[2rem] p-[0.2rem] text-[1.2rem] sm:text-[1.7rem] md:text-[1.4rem]
           hover:bg-green-600 hover:border-green-700 hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] hover:cursor-pointer hover:text-white relative"
             >
               <p className={subheaderFont.className}>Projects</p>
@@ -77,7 +81,7 @@ export default function Home() {
           </Link>
 
           <Link href="/pages/about">
-            <div className="bottombox box2 h-[7rem] md:h-[7rem] sm:m-auto sm:mx-3 bg-orange-400 w-[18rem] md:w-[20rem]  border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] mb-[2rem] p-[0.2rem] text-[1.2rem] sm:text-[1.7rem] md:text-[1.4rem]
+            <div className="bottombox box2 h-[7rem] md:h-[7rem] sm:m-auto mx-5 sm:mx-3 bg-orange-400 w-[18rem] md:w-[20rem]  border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] mb-[2rem] p-[0.2rem] text-[1.2rem] sm:text-[1.7rem] md:text-[1.4rem]
           hover:bg-orange-500 hover:border-orange-700 hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] hover:cursor-pointer hover:text-white relative"
             >
               <p className={subheaderFont.className}>About</p>
@@ -89,7 +93,7 @@ export default function Home() {
             </div>
           </Link>
           <Link href="/pages/contact">
-            <div className="bottombox box3 h-[7rem] md:h-[7rem] sm:m-auto sm:mx-3 bg-violet-600 w-[18rem] md:w-[20rem]  border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] mb-[2rem] p-[0.2rem] text-[1.2rem] sm:text-[1.7rem] md:text-[1.4rem]
+            <div className="bottombox box3 h-[7rem] md:h-[7rem] sm:m-auto mx-5 sm:mx-3 bg-violet-600 w-[18rem] md:w-[20rem]  border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] mb-[2rem] p-[0.2rem] text-[1.2rem] sm:text-[1.7rem] md:text-[1.4rem]
           hover:bg-violet-700 hover:border-violet-900 hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] hover:cursor-pointer hover:text-white relative"
             >
               <p className={subheaderFont.className}>Contact</p>
