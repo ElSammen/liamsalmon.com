@@ -130,7 +130,7 @@ export default function Projects() {
                             </div>
                             {expandedState[3] ? <div className="expanded mx-auto bg-fuchsia-400 border-black border-2 mt-3 shadow-[3px_3px_0px_rgba(0,0,0,1)]">
                                 {expandedState[3] ? <span ><Link className="mx-3 line-through" href="">Demo</Link> <Link className="line-through" href="">Repo</Link></span> : null}
-                                {expandedState[3] ? <p className="w-[90%] mx-auto text-center">To better understand Chrome extensions, I began making one to function as a productivity aid. For reasons unknown to me (masochism?) - I chose to do it purely in javascript, it's certainly promoted a newfound appreciation for frameworks.</p> : null}
+                                {expandedState[3] ? <p className="w-[90%] mx-auto text-center">To better understand Chrome extensions, I began making one to function as a productivity aid. For reasons unknown to me (masochism?) - I chose to do it purely in javascript, it has certainly promoted a newfound appreciation for frameworks.</p> : null}
                                 {expandedState[3] ? <p className="w-[90%] mx-auto text-center">The Pomodoro Technique involves setting a timer for 25 minutes and working uninterrupted till after that 25 minutes passes, any interruptions and you restart the timer. After that 25 minutes, take a 5 minute break and the cycle begins anew. After 4 of these "pomos", take a longer break for your fourth break.</p> : null}
                                 {expandedState[3] ? <p className="w-[90%] mx-auto text-center">I also incorporated a secondary feature of note taking that will be stored in the users local storage.</p> : null}
                             </div> : null}
@@ -191,7 +191,7 @@ export default function Projects() {
                             </div>
                             {expandedState[5] ? <div className="expanded mx-auto bg-fuchsia-400 border-black border-2 mt-3 shadow-[3px_3px_0px_rgba(0,0,0,1)]">
                                 {expandedState[5] ? <span ><Link className="mx-3 line-through" href="">Demo</Link> <Link className="line-through" href="">Repo</Link></span> : null}
-                                {expandedState[5] ? <p className="w-[90%] mx-auto text-center">A simple pot odds calculator for Texas Hold'em Poker.</p> : null}
+                                {expandedState[5] ? <p className="w-[90%] mx-auto text-center">A simple pot odds calculator for Texas Hold em Poker.</p> : null}
                                 {expandedState[5] ? <p className="w-[90%] mx-auto text-center">The user inputs the pot size, the bet size, and the number of outs they have. The calculator then outputs the percentage chance of hitting one of those outs on the next card.</p> : null}
                                 {expandedState[5] ? <p className="w-[90%] mx-auto text-center">More features to come such as calculating win percentage based on cards inputted.</p> : null}
                             </div> : null}
