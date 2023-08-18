@@ -2,6 +2,7 @@ import Link from "next/link"
 import Image from "next/image.js"
 import hero from '../../assets/heropic.png'
 import arrow from '../../assets/arrow.png'
+import nametag from '../../assets/nametag.png'
 import { headerFont, subheaderFont } from '../../utils/fonts.js'
 
 export default function About() {
@@ -25,7 +26,7 @@ export default function About() {
                         <p></p>
                     </div>
                 </div>
-                <div className="flex flex-col imgbox relative mt-8 my-1  mx-auto">
+                <div className="flex flex-col imgbox relative mt-8 mb-5  mx-auto">
                     <Image src={hero}
                         alt="Picture of the author over orange ink splatter"
                         className="hero aspectratio-auto w-[20rem] min-w-[15rem] sm:w-[28rem]"
@@ -33,23 +34,29 @@ export default function About() {
                     />
                     <div className="absolute top-1 left-1 motion-safe:animate-[diagonalMove45_0.7s_infinite]">
                         <Image src={arrow}
-                            alt="Picture of the author over orange ink splatter"
+                            alt="arrow with lightbulbs around it pointing diagonally right onto author image"
                             className="arrow aspectratio-auto w-[5rem] min-w-[5rem] rotate-45 sm:w-[7rem] "
 
                         />
                     </div>
                     <div className="absolute top-1 right-1 motion-safe:animate-[diagonalMove-45_0.7s_infinite]">
                         <Image src={arrow}
-                            alt="Picture of the author over orange ink splatter"
+                            alt="arrow with lightbulbs around it pointing downwards onto author image"
                             className="arrow aspectratio-auto w-[5rem] min-w-[5rem] rotate-[135deg] sm:w-[7rem] "
 
                         />
                     </div>
                     <div className="absolute -top-4 sm:-top-10 right-[7rem]  sm:right-[10rem] motion-safe:animate-bounce">
                         <Image src={arrow}
-                            alt="Picture of the author over orange ink splatter"
+                            alt="arrow with lightbulbs around it pointing diagonally left onto author image"
                             className="arrow aspectratio-auto w-[5rem] min-w-[5rem] -rotate-[270deg] sm:w-[7rem] "
 
+                        />
+                    </div>
+                    <div className="absolute bottom-1 right-12 sm:right-20">
+                        <Image src={nametag}
+                            alt="nametag with author name on it"
+                            className="nametag aspectratio-auto w-[1.2rem] min-w-[5rem] rotate-[-20deg]  sm:w-[4rem] "
                         />
                     </div>
                 </div>
