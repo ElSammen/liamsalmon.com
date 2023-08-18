@@ -54,7 +54,7 @@ export default function Projects() {
                         className="flex flex-col bg-fuchsia-500 border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] p-5 text-center mb-3 relative">
                         {expandedState[1] ? <div className="absolute top-0 right-1 cursor-pointer hover:text-white text-[1.5rem]"
                             onClick={(e) => {
-                                e.stopPropagation(); // This took a while to discover, but it's the only way to get the child closebutton to work.
+                                e.stopPropagation(); // This took a while to discover, but its the only way to get the child closebutton to work.
                                 closeExpand(1);
                             }}>
                             ☒
