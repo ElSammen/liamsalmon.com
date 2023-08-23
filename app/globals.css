@@ -30,6 +30,10 @@ colorpickerdeleteme {
   filter: drop-shadow(-2px 12px 0px #000);
 }
 
+.headerText {
+  filter: drop-shadow(-1px 3px 0px #000);
+
+}
 
 .nameimg {
   filter: drop-shadow(-1px 5px 0px #000);
