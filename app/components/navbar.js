@@ -7,7 +7,7 @@ import { useState, useCallback, useEffect } from 'react'
 import { subheaderFont, headerFont } from '../utils/fonts'
 import borgor from '../assets/borgor.png'
 
-function navbar() {
+function Navbar() {
 
 
     const useMediaQuery = (width) => {
@@ -31,7 +31,7 @@ function navbar() {
             }
 
             return () => media.removeListener(updateTarget);
-        }, []);
+        }, [updateTarget, width]);
 
         return targetReached;
     };
@@ -123,4 +123,4 @@ function navbar() {
     )
 }
 
-export default navbar
+export default Navbar
