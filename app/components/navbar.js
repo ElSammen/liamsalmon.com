@@ -50,11 +50,11 @@ function Navbar() {
 
 
     return (
-        <div className='w-screen absolute top-0 bg-sky-600 border-b-2 h-10 border-sky-700 leading-0'>
+        <div className='w-[100%] absolute top-0 bg-sky-600 border-b-2 h-16 md:h-10 border-sky-700 leading-0'>
             <div className='flex flex-row justify-between'>
                 <Link href='/'>
                     <div className={headerFont.className}>
-                        <p className='ml-2 text-[3rem] w-[10rem] text-white h-10  headerText
+                        <p className='ml-2 mt-[-0.4rem] md:mt-0 text-[5.5rem] md:text-[3rem] text-white h-10  headerText
                     decoration-2 underline-offset-2 hover:underline hover:cursor-pointer'
                         >LIAM SALMON</p>
                     </div>
@@ -83,12 +83,12 @@ function Navbar() {
                         </div>
                     </Link>
                 </div> :
-                    <div className='justify-self-end flex flex-row my-auto mr-2'
+                    <div className='justify-self-end flex flex-row mt-[0.57rem] mr-2'
                         onClick={() => handleMenu()}
                     >
-                        <Image src={borgor} alt='burger menu' className='w-8 h-8' />
+                        <Image src={borgor} alt='burger menu' className='w-[3.7rem] h-[2.75rem]' />
                         { menu ? 
-                            <div className='absolute top-9 right-1 bg-sky-600 p-1 border-b-2  border-black shadow-[4px_4px_0px_rgba(0,0,0,1)] leading-0'>
+                            <div className='absolute top-14 right-1 bg-sky-600 p-1 border-b-2 w-screen border-black shadow-[4px_4px_0px_rgba(0,0,0,1)] leading-0'>
                                 <Link href='/pages/projects' >
                                     <div className={headerFont.className}>
                                         <p className='mr-2  text-[5rem] text-white  headerText

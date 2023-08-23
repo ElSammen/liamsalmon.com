@@ -40,13 +40,8 @@ export default function Projects() {
 
 
     return (
-        <main className="bg-sky-500 flex min-h-screen min-w-screen flex-col flex-wrap items-center justify-between">
+        <main className="bg-sky-500 flex min-h-screen min-w-screen mt-14 md:mt-0 flex-col flex-wrap items-center justify-between">
             <section className="maintop flex sm:flex-row flex-wrap justify-between w-full py-7 px-6  sm:px-28 sm:mx-auto sm:my-[3rem] text-center md:text-left">
-                <Link href="/">
-                    <div className="absolute top-0 left-1" expanded="false" >
-                        <span>return home</span>
-                    </div>
-                </Link>
                 <div className="projectbox flex sm:flex-row flex-wrap justify-between w-full sm:mx-auto sm:my-[3rem] text-center w-[20rem]">
                     <div
                         id={1}
