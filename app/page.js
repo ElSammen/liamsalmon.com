@@ -8,6 +8,11 @@ import jsloon from './assets/jsloon.png'
 import reactloon from './assets/reactloon.png'
 import mongoloon from './assets/mongoloon.png'
 import nodeloon from './assets/nodeloon.png'
+import CSSlogo from './assets/CSSlogo.svg'
+import JSlogo from './assets/JS-logo.png'
+import mongo from './assets/mongoDB.png'
+import nodejs from './assets/nodejs.png'
+import reactIcon from './assets/React-icon.svg'
 import { headerFont, subheaderFont } from './utils/fonts.js'
 
 export default function Home() {
@@ -17,13 +22,13 @@ export default function Home() {
         <div className="flex flex-col name-box text-center mx-1 ml-2">
           <Image src={nameimg}
             alt="Picture of name of author over fuchsia ink splatter"
-            className="nameimg mt-3 sm:mt-4 mx-auto sm-mx-auto sm:ml-10 w-[22rem] sm:w-[20rem]"
+            className="nameimg mt-12 sm:mt-4 mx-auto sm-mx-auto sm:ml-10 w-[22rem] sm:w-[20rem]"
 
           />
           {/* <div className='bg-amber-400 border-black border-4 mt-1 mx-auto p-3 w-[20rem]'>
             <p className={subheaderFont.className}>While primarily skilled with the below technologies, I'm open to learning any new technology that comes my way.</p>
           </div> */}
-          <div className="flex flex-row justify-center sm:mt-10">
+          {/* <div className="flex flex-row justify-center sm:mt-10">
 
             <Image src={jsloon}
               alt="Picture of javascript logo imposed onto a balloon"
@@ -45,6 +50,35 @@ export default function Home() {
               className="nodeloon animate-[balloon2_10s_infinite] w-[5rem] sm:w-[5rem] mx-1 sm:mx-2"
 
             />
+          </div> */}
+          <div className="my-3 flex flex-row justify-center bg-blue-600 border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] relative h-40">
+            <div className="justify-center border-4 border-black shadow-[4px_4px_0px_rgba(0,0,0,1)] bg-orange-400 -top-4 left-4 p-2 absolute">
+              <span className={subheaderFont.className}>Skill Set</span>
+            </div>
+            <div className="flex flex-row justify-center my-auto">
+              <Image src={JSlogo}
+                alt="Picture of javascript logo"
+                className="w-[3.5rem] sm:w-[3rem] mx-1 sm:mx-2"
+                
+              />
+              <Image src={CSSlogo}
+                alt="Picture of CSS logo"
+                className="w-[3.5rem] sm:w-[3rem] mx-1 sm:mx-2"
+              />
+              <Image src={mongo}
+                alt="Picture of mongoDB logo"
+                className="w-[3.5rem] sm:w-[3rem] mx-1 sm:mx-2"
+              />
+              <Image src={nodejs}
+                alt="Picture of nodejs logo"
+                className="w-[3.5rem] sm:w-[3rem] mx-1 sm:mx-2"
+              />
+              <Image src={reactIcon}
+                alt="Picture of react logo"
+                className="w-[3.5rem] sm:w-[3rem] mx-1 sm:mx-2"
+              />
+            </div>
+
           </div>
         </div>
         <div className="flex flex-col imgbox relative sm:mt-4 sm:mx-4 md:mr-[2rem]">
@@ -81,8 +115,8 @@ export default function Home() {
           </Link>
 
           <Link href="/pages/about">
-            <div className="bottombox box2 h-[7rem] md:h-[7rem] sm:m-auto mx-5 sm:mx-3 bg-orange-400 w-[18rem] md:w-[20rem]  border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] mb-[2rem] p-[0.2rem] text-[1.2rem] sm:text-[1.7rem] md:text-[1.4rem]
-          hover:bg-orange-500 hover:border-orange-700 hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] hover:cursor-pointer hover:text-white relative"
+            <div className="bottombox box2 h-[7rem] md:h-[7rem] sm:m-auto mx-5 sm:mx-3 bg-amber-400 w-[18rem] md:w-[20rem]  border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] mb-[2rem] p-[0.2rem] text-[1.2rem] sm:text-[1.7rem] md:text-[1.4rem]
+          hover:bg-amber-500 hover:border-amber-700 hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] hover:cursor-pointer hover:text-white relative"
             >
               <p className={subheaderFont.className}>About</p>
               <div className='svgbox absolute right-2 bottom-2'>

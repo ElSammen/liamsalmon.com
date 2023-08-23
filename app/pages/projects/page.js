@@ -51,7 +51,7 @@ export default function Projects() {
                     <div
                         id={1}
                         onClick={() => setExpand(1)}
-                        className="flex flex-col bg-fuchsia-500 border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] p-5 text-center mb-3 relative">
+                        className="flex flex-col bg-fuchsia-500 border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] p-5 text-center mb-3 mx-auto relative">
                         {expandedState[1] ? <div className="absolute top-0 right-1 cursor-pointer hover:text-white text-[1.5rem]"
                             onClick={(e) => {
                                 e.stopPropagation(); // This took a while to discover, but its the only way to get the child closebutton to work.
@@ -80,7 +80,7 @@ export default function Projects() {
                     <div
                         id={2}
                         onClick={() => setExpand(2)}
-                        className="transition flex flex-col bg-violet-500 border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] p-5 text-center mb-3 relative">
+                        className="transition flex flex-col bg-violet-500 border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] p-5 text-center mx-auto mb-3 relative">
                         {expandedState[2] ? <div className="absolute top-0 right-1 cursor-pointer hover:text-white text-[1.5rem]"
                             onClick={(e) => {
                                 e.stopPropagation();
@@ -111,7 +111,7 @@ export default function Projects() {
                     <div
                         id={3}
                         onClick={() => setExpand(3)}
-                        className="flex flex-col bg-fuchsia-500 border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] p-5 text-center mb-3 relative">
+                        className="flex flex-col bg-fuchsia-500 border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] p-5 text-center  mx-auto mb-3 relative">
                         {expandedState[3] ? <div className="absolute top-0 right-1 cursor-pointer hover:text-white text-[1.5rem]"
                             onClick={(e) => {
                                 e.stopPropagation();
@@ -141,7 +141,7 @@ export default function Projects() {
                         id={4}
                         onClick={() => setExpand(4)}
 
-                        className="flex flex-col bg-violet-500 border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] text-center p-5 mb-3 relative">
+                        className="flex flex-col bg-violet-500 border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] text-center  mx-auto p-5 mb-3 relative">
                         {expandedState[4] ? <div className="absolute top-0 right-1 cursor-pointer hover:text-white text-[1.5rem]"
                             onClick={(e) => {
                                 e.stopPropagation();
@@ -171,7 +171,7 @@ export default function Projects() {
                         id={5}
                         onClick={() => setExpand(5)}
 
-                        className="flex flex-col bg-fuchsia-500 border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] text-center mb-3 relative">
+                        className="flex flex-col bg-fuchsia-500 border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] text-center  mx-auto mb-3 relative">
                         {expandedState[5] ? <div className="absolute top-0 right-1 cursor-pointer hover:text-white text-[1.5rem]"
                             onClick={(e) => {
                                 e.stopPropagation();
