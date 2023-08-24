@@ -54,7 +54,7 @@ function Navbar() {
             <div className='flex flex-row justify-between'>
                 <Link href='/'>
                     <div className={headerFont.className}>
-                        <p className='ml-2 mt-[-0.4rem] md:mt-0 text-[5.5rem] md:text-[3rem] text-white h-10  headerText
+                        <p className='ml-2 mt-[-0.2rem] md:mt-0 text-[5rem] w-auto md:text-[3rem] text-white h-10  headerText
                     decoration-2 underline-offset-2 hover:underline hover:cursor-pointer'
                         >LIAM SALMON</p>
                     </div>
@@ -83,29 +83,29 @@ function Navbar() {
                         </div>
                     </Link>
                 </div> :
-                    <div className='justify-self-end flex flex-row mt-[0.57rem] mr-2'
+                    <div className='justify-self-end flex flex-row mt-[0.7rem] mr-2'
                         onClick={() => handleMenu()}
                     >
-                        <Image src={borgor} alt='burger menu' className='w-[3.7rem] h-[2.75rem]' />
+                        <Image src={borgor} alt='burger menu' className='w-[3.4rem] h-[2.4rem]' />
                         { menu ? 
-                            <div className='absolute top-14 right-1 bg-sky-600 p-1 border-b-2 w-screen border-black shadow-[4px_4px_0px_rgba(0,0,0,1)] leading-0'>
+                            <div className='absolute w-[99vw] top-14 right-1 bg-sky-600 p-1 border-b-2 w-screen border-black shadow-[4px_4px_0px_rgba(0,0,0,1)] leading-0'>
                                 <Link href='/pages/projects' >
                                     <div className={headerFont.className}>
-                                        <p className='mr-2  text-[5rem] text-white  headerText
+                                        <p className='mr-2  text-[5rem] text-white text-center border-b-2 border-black  headerText
                     decoration-2 underline-offset-2 blrd'
                                         >PROJECTS</p>
                                         </div>
                                 </Link>
                                 <Link href='/pages/about' >
                                     <div className={headerFont.className}>
-                                        <p className='mr-2  text-[5rem] text-white  headerText
+                                        <p className='mr-2  text-[5rem] text-white text-center border-b-2 border-black headerText
                     decoration-2 underline-offset-2 '
                                         >ABOUT</p>
                                         </div>
                                         </Link>
                                 <Link href='/pages/contact' >
                                     <div className={headerFont.className}>
-                                        <p className='mr-2  text-[5rem] text-white   headerText
+                                        <p className='mr-2  text-[5rem] text-white text-center border-b-2 border-black headerText
                     decoration-2 underline-offset-2'
                                         >CONTACT</p>
                                         </div>
