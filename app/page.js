@@ -98,8 +98,8 @@ export default function Home() {
           />
         </div>
       </section>
-      <section className="md:mx-0 mainbottom flex flex-row w-full justify-items-center">
-        <div className="flex flex-row flex-wrap  text-box justify-between xs:mx-12  mt-6 sm:mx-[8rem]  sm:mb-8 md:mx-auto">
+      <section className="md:mx-0 mainbottom flex flex-row w-full justify-center">
+        <div className="flex flex-row flex-wrap  text-box justify-between xs:mx-12  mt-6 sm:mx-[8rem]  sm:mb-8 md:mx-auto place-content-center">
           <Link href="/pages/projects">
             <div className="bottombox box1 h-[7rem] md:h-[7rem] sm:m-auto sm:mx-3 bg-green-500 w-[17rem] md:w-[20rem] border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] mb-[2rem] p-[0.2rem] text-[1.2rem] sm:text-[1.7rem] md:text-[1.4rem]
           hover:bg-green-600 hover:border-green-700 hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] hover:cursor-pointer hover:text-white relative"
