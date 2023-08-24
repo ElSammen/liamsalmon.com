@@ -51,37 +51,37 @@ export default function Home() {
 
             />
           </div> */}
-          <div className="my-5 flex flex-row justify-center bg-orange-500 border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] relative h-40">
+          <div className="my-5 flex flex-row justify-center bg-orange-500 py-10 border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] relative h-40">
             <div className="justify-center border-4 border-black shadow-[4px_4px_0px_rgba(0,0,0,1)] bg-orange-500 -top-4 left-4 p-2 absolute">
               <span className={subheaderFont.className}>Skill Set</span>
             </div>
-            <div className="flex flex-row justify-center my-auto">
+            <div className="flex flex-row justify-center my-auto flex-wrap">
               <Image src={JSlogo}
                 alt="Picture of javascript logo"
-                className="w-[3.5rem] sm:w-[3rem] mx-1 sm:mx-2 techImg"
+                className="w-[2.9rem] xs:w-[3.5rem] sm:w-[3rem] mx-1 sm:mx-2 techImg"
                 
               />
               <Image src={CSSlogo}
                 alt="Picture of CSS logo"
-                className="w-[3.5rem] sm:w-[3rem] mx-1 sm:mx-2 techImg"
+                className="w-[2.9rem] xs:w-[3.5rem] sm:w-[3rem] mx-1 sm:mx-2 techImg"
               />
               <Image src={mongo}
                 alt="Picture of mongoDB logo"
-                className="w-[3.5rem] sm:w-[3rem] mx-1 sm:mx-2 techImg"
+                className="w-[2.9rem] xs:w-[3.5rem] sm:w-[3rem] mx-1 sm:mx-2 techImg"
               />
               <Image src={nodejs}
                 alt="Picture of nodejs logo"
-                className="w-[3.5rem] sm:w-[3rem] mx-1 sm:mx-2 techImg"
+                className="w-[2.9rem] xs:w-[3.5rem] sm:w-[3rem] mx-1 sm:mx-2 techImg"
               />
               <Image src={reactIcon}
                 alt="Picture of react logo"
-                className="w-[3.5rem] sm:w-[3rem] mx-1 sm:mx-2 techImg"
+                className="w-[2.9rem] xs:w-[3.5rem] sm:w-[3rem] mx-1 sm:mx-2 techImg"
               />
             </div>
 
           </div>
         </div>
-        <div className="flex flex-col imgbox relative sm:mt-4 sm:mx-4 md:mr-[2rem]">
+        <div className="flex flex-col mx-auto imgbox relative sm:mt-4 sm:mx-4 md:mr-[2rem]">
           <Image src={hero}
             alt="Picture of the author over orange ink splatter"
             className="hero md:rotate-[-5deg] aspectratio-auto w-[20rem] sm:w-[28rem]"
@@ -98,10 +98,10 @@ export default function Home() {
           />
         </div>
       </section>
-      <section className="mx-2 md:mx-0 mainbottom flex flex-row w-full justify-items-center">
-        <div className="flex flex-row flex-wrap  text-box justify-between mx-3 mt-6 sm:mx-[8rem]  sm:mb-8 md:mx-auto">
+      <section className="md:mx-0 mainbottom flex flex-row w-full justify-items-center">
+        <div className="flex flex-row flex-wrap  text-box justify-between xs:mx-12  mt-6 sm:mx-[8rem]  sm:mb-8 md:mx-auto">
           <Link href="/pages/projects">
-            <div className="bottombox box1 h-[7rem] md:h-[7rem] sm:m-auto mx-5 sm:mx-3 bg-green-500 w-[18rem] md:w-[20rem] border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] mb-[2rem] p-[0.2rem] text-[1.2rem] sm:text-[1.7rem] md:text-[1.4rem]
+            <div className="bottombox box1 h-[7rem] md:h-[7rem] sm:m-auto sm:mx-3 bg-green-500 w-[17rem] md:w-[20rem] border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] mb-[2rem] p-[0.2rem] text-[1.2rem] sm:text-[1.7rem] md:text-[1.4rem]
           hover:bg-green-600 hover:border-green-700 hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] hover:cursor-pointer hover:text-white relative"
             >
               <p className={subheaderFont.className}>Projects</p>
@@ -115,7 +115,7 @@ export default function Home() {
           </Link>
 
           <Link href="/pages/about">
-            <div className="bottombox box2 h-[7rem] md:h-[7rem] sm:m-auto mx-5 sm:mx-3 bg-amber-400 w-[18rem] md:w-[20rem]  border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] mb-[2rem] p-[0.2rem] text-[1.2rem] sm:text-[1.7rem] md:text-[1.4rem]
+            <div className="bottombox box2 h-[7rem] md:h-[7rem] sm:m-auto sm:mx-3 bg-amber-400 w-[17rem] md:w-[20rem]  border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] mb-[2rem] p-[0.2rem] text-[1.2rem] sm:text-[1.7rem] md:text-[1.4rem]
           hover:bg-amber-500 hover:border-amber-700 hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] hover:cursor-pointer hover:text-white relative"
             >
               <p className={subheaderFont.className}>About</p>
@@ -127,7 +127,7 @@ export default function Home() {
             </div>
           </Link>
           <Link href="/pages/contact">
-            <div className="bottombox box3 h-[7rem] md:h-[7rem] sm:m-auto mx-5 sm:mx-3 bg-violet-600 w-[18rem] md:w-[20rem]  border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] mb-[2rem] p-[0.2rem] text-[1.2rem] sm:text-[1.7rem] md:text-[1.4rem]
+            <div className="bottombox box3 h-[7rem] md:h-[7rem] sm:m-auto sm:mx-3 bg-violet-600 w-[17rem] md:w-[20rem]  border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] mb-[2rem] p-[0.2rem] text-[1.2rem] sm:text-[1.7rem] md:text-[1.4rem]
           hover:bg-violet-700 hover:border-violet-900 hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] hover:cursor-pointer hover:text-white relative"
             >
               <p className={subheaderFont.className}>Contact</p>
