@@ -8,7 +8,7 @@ export default function ContactForm() {
 
        
 
-        const response = await fetch(`/api/contact/route`, {
+        const response = await fetch(process.env.MAILURL, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -38,7 +38,7 @@ export default function ContactForm() {
 
     return (
        
-        <form className="flex flex-col bg-orange-400 border-black border-4 shadow-[8px_8px_0px_rgba(0,0,0,1)] p-2 mt-3" onSubmit={handleSubmit}>
+        <form className="flex flex-col bg-orange-400 border-black border-4 shadow-[8px_8px_0px_rgba(0,0,0,1)] w-[20rem] p-2 mt-3" onSubmit={handleSubmit}>
             <label className="text-2xl font-bold" htmlFor="name">Name</label>
             <input className="border-2 border-black " minLength={1} maxLength={25} required type="text" name="name" id="name" />
 
