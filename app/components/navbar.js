@@ -50,7 +50,7 @@ function Navbar() {
 
 
     return (
-        <div className='w-[100%] absolute top-0 bg-sky-600 border-b-2 h-16 md:h-10 border-sky-700 leading-0'>
+        <div className='w-[100%] absolute top-0 bg-sky-600 border-b-2 h-16 md:h-10 border-sky-700 leading-0 z-10'>
             <div className='flex flex-row justify-between'>
                 <Link href='/'>
                     <div className={headerFont.className}>
@@ -88,7 +88,7 @@ function Navbar() {
                     >
                         <Image src={borgor} alt='burger menu' className='w-[3.4rem] h-[2.4rem]' />
                         { menu ? 
-                            <div className='absolute w-[99vw] top-14 right-1 bg-sky-600 p-1 border-b-2 w-screen border-black shadow-[4px_4px_0px_rgba(0,0,0,1)] leading-0'>
+                            <div className='absolute w-[99vw] top-14 right-1 bg-sky-600 p-1 border-b-2 w-screen border-black shadow-[4px_4px_0px_rgba(0,0,0,1)] leading-0 z-10'>
                                 <Link href='/pages/projects' >
                                     <div className={headerFont.className}>
                                         <p className='mr-2  text-[5rem] text-white text-center border-b-2 border-black  headerText
