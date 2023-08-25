@@ -88,7 +88,9 @@ function Navbar() {
                     >
                         <Image src={borgor} alt='burger menu' className='w-[3.4rem] h-[2.4rem]' />
                         { menu ? 
-                            <div className='absolute w-[99vw] top-14 right-1 bg-sky-600 p-1 border-b-2 border-black shadow-[4px_4px_0px_rgba(0,0,0,1)] leading-0'>
+
+                            <div className='absolute w-[99vw] top-14 right-1 bg-sky-600 p-1 border-b-2 w-screen border-black shadow-[4px_4px_0px_rgba(0,0,0,1)] leading-0 z-10'>
+
                                 <Link href='/pages/projects' >
                                     <div className={headerFont.className}>
                                         <p className='mr-2  text-[5rem] text-white text-center border-b-2 border-black  headerText
