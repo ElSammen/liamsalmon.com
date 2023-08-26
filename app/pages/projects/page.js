@@ -166,7 +166,7 @@ export default function Projects() {
                         id={5}
                         onClick={() => setExpand(5)}
 
-                        className="flex flex-col bg-fuchsia-500 border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] text-center  mx-auto mb-3 relative">
+                        className="flex flex-col bg-fuchsia-500 border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] text-center p-5 mx-auto mb-3 relative">
                         {expandedState[5] ? <div className="absolute top-0 right-1 cursor-pointer hover:text-white text-[1.5rem]"
                             onClick={(e) => {
                                 e.stopPropagation();
@@ -175,7 +175,8 @@ export default function Projects() {
                             ☒
                         </div> : null}
                         <div className={subheaderFont.className}>
-                            <p className="border-b-2 border-black w-[50%] mx-auto">Pot Odds Calculator</p>
+                            <p className="border-b-2 border-black w-[55%] mx-auto">Pot Odds Calculator</p>
+                            <p className="mx-auto">Pot Ratio & Percentages</p>
 
                             <div className="flex justify-center space-x-0.5 techbox mx-auto  mt-1">
                                 <Image src={reactIcon} className="opacity-[1]" alt="React Icon" style={{ width: "2.2rem" }} />
