@@ -78,8 +78,7 @@ module.exports = {
           '75%': { transform: 'translate(0.5rem, -0.5rem)' },
           '100%': { transform: 'translate(-0.5rem, 0.5rem)' }
         },
-
-
+        
       }
     }
   }

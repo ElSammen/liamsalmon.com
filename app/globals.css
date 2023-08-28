@@ -63,6 +63,33 @@ colorpickerdeleteme {
     -1px 1px black;
 }
 
+.loading::after {
+  content: '';
+  animation: dots 1s steps(5, end) infinite;
+}
+
+
+@keyframes dots {
+
+  0%,
+  20% {
+    content: '.';
+  }
+
+  40% {
+    content: '..';
+  }
+
+  60% {
+    content: '...';
+  }
+
+  90%,
+  100% {
+    content: '';
+  }
+}
+
 
 /* @media (prefers-color-scheme: light) {
   :root {
