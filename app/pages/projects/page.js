@@ -44,6 +44,35 @@ export default function Projects() {
             <section className="maintop flex sm:flex-row flex-wrap justify-between w-full py-7 px-6  sm:px-28 sm:mx-auto sm:my-[3rem] text-center md:text-left">
                 <div className="projectbox flex sm:flex-row flex-wrap justify-between w-full sm:mx-auto sm:my-[3rem] text-center w-[20rem]">
                     <div
+                        id={0}
+                        onClick={() => setExpand(0)}
+                        className="flex flex-col bg-violet-500 border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] p-5 text-center mb-3 mx-auto relative">
+                        {expandedState[0] ? <div className="absolute top-0 right-1 cursor-pointer hover:text-white text-[1.5rem]"
+                            onClick={(e) => {
+                                e.stopPropagation();
+                                closeExpand(0);
+                            }} >
+                            ☒
+                        </div> : null}
+                        <div className={subheaderFont.className}>
+                            <p className="border-b-2 border-black w-[50%] mx-auto text-[1.2]">Portfolio Mail Service</p>
+                            <p className="mx-auto">Express, Node & Nodemailer</p>
+                            <div className="flex justify-center space-x-0.5 techbox mt-2 mx-auto">
+                                <Image src={jsIcon} className="opacity-[1]" alt="JavaScript language icon" style={{ width: "2.2rem" }} />
+                                <Image src={nodeJS} className="opacity-[1]" alt="NodeJS icon" style={{ width: "2.2rem" }} />
+                            </ div>
+                            {expandedState[0] ? <div className="expanded mx-auto bg-violet-400 border-black border-2 mt-3 shadow-[3px_3px_0px_rgba(0,0,0,1)]">
+                                {expandedState[0] ? <span ><Link className="hover:text-white mx-3" href="https://www.liamsalmon.com/pages/contact" >Demo</Link> <Link className="hover:text-white" href="https://github.com/ElSammen/mailservice" >Repo</Link></span> : null}
+                                {expandedState[0] ? <p className="w-[90%] mx-auto text-center">A simple Express server that utilizes Nodemailer to send emails to my personal email address.</p> : null}
+                                {expandedState[0] ? <p className="w-[90%] mx-auto text-center">The server is hosted on Render and is called via a Nextjs fetch request from the contact form on the contact page.</p> : null}
+                            </div> : null}
+                        </div>
+                    </div>
+
+
+
+
+                    <div
                         id={1}
                         onClick={() => setExpand(1)}
                         className="flex flex-col bg-fuchsia-500 border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] p-5 text-center mb-3 mx-auto relative">
