@@ -11,7 +11,7 @@ export default function Contact() {
         <main className="bg-sky-500 flex min-h-screen min-w-screen mt-14 md:mt-0 flex-col flex-wrap items-center justify-center px-10">
             <section className="maintop flex md:flex-row flex-wrap justify-center w-full gap-28 px-28 sm:mx-auto sm:my-[3rem] text-center md:text-left">
                 <div className="leftside relative ">
-                    <div className="border-4 -top-5 left-3 border-black bg-fuchsia-500 p-1 shadow-[4px_4px_0px_rgba(0,0,0,1)] absolute">
+                    <div className="z-10 border-4 -top-5 left-3 border-black bg-fuchsia-500 p-1 shadow-[4px_4px_0px_rgba(0,0,0,1)] absolute">
                         <span className={subheaderFont.className}>Drop me a message... </span>
                     </div>
                     <ContactForm />
