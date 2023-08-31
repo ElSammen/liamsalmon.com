@@ -20,7 +20,7 @@ export default function Contact() {
 
                 <div className="rightside flex justify-center">
                     <div className="flex border-4 border-black bg-orange-400 shadow-[8px_8px_0px_rgba(0,0,0,1)] px-12 h-[8rem] relative my-3 justify-center place-content-center" >
-                        <div className="border-4 -top-5 left-1 border-black bg-fuchsia-500 p-1 shadow-[4px_4px_0px_rgba(0,0,0,1)] absolute">
+                        <div className="z-10 border-4 -top-5 left-1 border-black bg-fuchsia-500 p-1 shadow-[4px_4px_0px_rgba(0,0,0,1)] absolute">
                             <span className={subheaderFont.className}>...or check me out below</span>
                         </div>
 
