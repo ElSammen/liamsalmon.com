@@ -70,7 +70,7 @@ export default function Projects() {
           images={[jsIcon, cssLogo]}
           demo=""
           repo=""
-          description="To better understand Chrome extensions, I began making one to function as a productivity aid. The Pomodoro Technique involves setting a timer for 25 minutes and working uninterrupted till after that 25 minutes passes, any interruptions and you restart the timer. After that 25 minutes, take a 5 minute break and the cycle begins anew. After 4 of these 'pomos', take a longer break for your fourth break."
+          description="To better understand Chrome extensions, I began making one to function as a productivity aid. The Pomodoro Technique involves setting a timer for 25 minutes and working uninterrupted till after that 25 minutes passes, any interruptions and you restart the timer. After that 25 minutes, take a 5 minute break and the cycle begins anew. After 4 of these &apos;pomos&apos;, take a longer break for your fourth break."
           className="bg-fuchsia-500"
           handleCloseClick={handleCloseClick}
         />
@@ -96,7 +96,7 @@ export default function Projects() {
           images={[reactIcon, jsIcon, cssLogo]}
           demo=""
           repo=""
-          description="A simple Pot Odds Calculator to calculate the ratio of the pot and help make a decision on whether to call. Features to come include a percentage calculator and a hand strength calculator"
+          description="A simple Pot Odds Calculator to calculate the ratio of the pot and help make a decision on whether to call. Still a work in progress, features to come include a percentage calculator and a hand strength calculator plus quizzes to workout your &apos;outs&apos; (cards that would make you win the hand)."
           className="bg-fuchsia-500"
           handleCloseClick={handleCloseClick}
         />
