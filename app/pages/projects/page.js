@@ -32,7 +32,7 @@ export default function Projects() {
           images={[jsIcon, nodeJS]}
           demo="https://www.liamsalmon.com/pages/contact"
           repo="https://github.com/ElSammen/mailservice"
-          description="A simple Express server that utilizes Nodemailer to send emails to my personal email address. The server is hosted on Render and is called via a Nextjs fetch request from the contact form on the contact page."
+          description="An Express server email service that utilizes Nodemailer to pass along emails from my portfolio contact form to my personal email address. The server is hosted on Render and is called via a Nextjs fetch request from the contact form on the contact page."
           handleCloseClick={handleCloseClick}
         />
       ) : null}
@@ -96,7 +96,7 @@ export default function Projects() {
           images={[reactIcon, jsIcon, cssLogo]}
           demo=""
           repo=""
-          description="A simple Pot Odds Calculator to calculate the ratio of the pot and help make a decision on whether to call. Features to come include a percentage calculator and a hand strength calculator"
+          description="A Twofold Web App, a Poker Pot Odds Calculator and a quiz, users must guess the outs they have to win the hand. Features to come include a percentage calculator and a hand strength calculator"
           className="bg-fuchsia-500"
           handleCloseClick={handleCloseClick}
         />
